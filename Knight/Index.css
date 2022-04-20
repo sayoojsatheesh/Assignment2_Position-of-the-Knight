@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.grid {
+  width: 90px;
+  height: 80px;
+  background-color: white;
+  border: 0.01rem solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid:hover{
+  cursor: pointer;
+  /* background-color: aqua; */
+}
+
+.grey{
+    background-color:grey;
+}
+
+img{
+  width: 75px;
+}
